@@ -1,0 +1,24 @@
+# Исключаем большие файлы и папки с изображениями
+
+# Папки с изображениями
+test_images/
+train_images/
+train_tfrecords/
+test_tfrecords/
+
+# Другие большие файлы
+*.ipynb_checkpoints
+*.tfrecords
+*.xlsx
+*.csv
+*.jpg
+*.jpeg
+*.png
+*.bmp
+*.gif
+*.tiff
+*.tif
+
+# Остальные файлы
+.DS_Store
+Thumbs.db
